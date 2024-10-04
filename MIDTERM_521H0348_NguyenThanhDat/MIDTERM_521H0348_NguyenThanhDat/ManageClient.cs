@@ -129,9 +129,10 @@ namespace GUI
                     Address = txtAddress.Text
                 };
 
-                // Check if we're adding a new client or updating an existing one
+                bool isUpdating = busClient.Exists(client.ID); // Check if we're updating an existing client or adding a new one
                 bool success;
-                if (busClient.Exists(client.ID)) // Assuming Exists() checks if the client already exists
+
+                if (isUpdating)
                 {
                     // Update existing client
                     success = busClient.UpdateClient(client);
@@ -145,7 +146,15 @@ namespace GUI
                 // Handle the result
                 if (success)
                 {
-                    MessageBox.Show("Client saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (isUpdating)
+                    {
+                        MessageBox.Show("Client updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("New client added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
                     LoadClientData(); // Refresh the client data in the DataGridView
                     disable(); // Disable input fields after saving
                 }

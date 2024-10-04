@@ -23,9 +23,8 @@ namespace GUI
         public ManageBill()
         {
             InitializeComponent();
-            LoadBillData();
             LoadComboBoxData();
-            ClearForm();
+            LoadBillData();
         }
 
         private void LoadComboBoxData()
@@ -189,6 +188,9 @@ namespace GUI
 
         private void ManageBill_Load(object sender, EventArgs e)
         {
+
+            LoadBillData();
+
             nbrTotalPrice.Maximum = 10000000;
             nbrTotalPrice.Minimum = 0;
 

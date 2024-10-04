@@ -158,11 +158,21 @@ namespace GUI
             // Check if any row is selected in the DataGridView
             if (dataGridView.SelectedRows.Count > 0)
             {
-                // Remove the selected row
-                dataGridView.Rows.RemoveAt(dataGridView.SelectedRows[0].Index);
+                // Show a confirmation dialog before deleting
+                DialogResult result = MessageBox.Show("Are you sure you want to remove the selected product?",
+                                                      "Confirm Removal",
+                                                      MessageBoxButtons.YesNo,
+                                                      MessageBoxIcon.Question);
 
-                // Update the total price after removal
-                UpdateTotalOrderPrice();
+                if (result == DialogResult.Yes)
+                {
+                    // Remove the selected row
+                    dataGridView.Rows.RemoveAt(dataGridView.SelectedRows[0].Index);
+
+                    // Update the total price after removal
+                    UpdateTotalOrderPrice();
+                }
+                // If the user chooses 'No', do nothing
             }
             else
             {

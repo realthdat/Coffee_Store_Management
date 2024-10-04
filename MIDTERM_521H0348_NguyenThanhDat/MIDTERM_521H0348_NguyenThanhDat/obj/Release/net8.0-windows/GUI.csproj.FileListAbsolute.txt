@@ -81,3 +81,4 @@ C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_Ngu
 C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Release\net8.0-windows\GUI.pdb
 C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Release\net8.0-windows\GUI.genruntimeconfig.cache
 C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Release\net8.0-windows\ref\GUI.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Release\net8.0-windows\GUI.sourcelink.json

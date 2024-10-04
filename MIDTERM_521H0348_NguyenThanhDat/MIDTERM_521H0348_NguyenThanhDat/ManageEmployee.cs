@@ -197,20 +197,32 @@ namespace GUI
                 };
 
                 // Check if we're adding or updating based on the employee ID
+                bool isUpdating = busEmployee.Exists(txtEmployeeID.Text); // Check if employee exists
                 bool success;
-                if (busEmployee.Exists(txtEmployeeID.Text)) // Assuming Exists() checks if the employee already exists
+
+                if (isUpdating)
                 {
-                    success = busEmployee.UpdateEmployee(employee);  // Update if the employee exists
+                    // Update if the employee exists
+                    success = busEmployee.UpdateEmployee(employee);
                 }
                 else
                 {
-                    success = busEmployee.AddEmployee(employee);  // Add if the employee is new
+                    // Add if the employee is new
+                    success = busEmployee.AddEmployee(employee);
                 }
 
-                // Handle the result
+                // Handle the result with specific messages
                 if (success)
                 {
-                    MessageBox.Show("Employee saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (isUpdating)
+                    {
+                        MessageBox.Show("Employee updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("New employee added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
                     LoadEmployeeData();  // Refresh the employee data grid
                     disable();  // Disable the form fields
                 }

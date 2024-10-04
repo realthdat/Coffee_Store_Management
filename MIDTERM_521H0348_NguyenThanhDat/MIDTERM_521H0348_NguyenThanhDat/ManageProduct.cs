@@ -135,24 +135,30 @@ namespace GUI
                     Quantity = (int)nbrQuantity.Value
                 };
 
+                bool isUpdating = busProduct.Exists(product.ID); // Check if the product already exists
                 bool success;
 
-                // Check if this is a new product or an update
-                if (!busProduct.Exists(product.ID))  // Assuming Exists() checks if the product exists by ID
+                if (!isUpdating)  // This is a new product
                 {
-                    // This is a new product
                     success = busProduct.AddProduct(product);
                 }
-                else
+                else  // This is an existing product
                 {
-                    // This is an existing product
                     success = busProduct.UpdateProduct(product);
                 }
 
                 // Handle the result of the save operation
                 if (success)
                 {
-                    MessageBox.Show("Product saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (isUpdating)
+                    {
+                        MessageBox.Show("Product updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("New product added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
                     LoadProductData();  // Refresh the DataGridView with the latest data
                     disable();          // Disable the input fields after saving
                 }
