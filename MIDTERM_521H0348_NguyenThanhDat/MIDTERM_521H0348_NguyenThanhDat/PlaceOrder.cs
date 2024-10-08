@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using iTextSharp.text; 
+using iTextSharp.text.pdf;
 
 namespace GUI
 {
@@ -225,11 +230,7 @@ namespace GUI
                     TotalPrice = totalPrice
                 };
 
-                // Create list to store order items
                 List<DTO_OrderItem> orderItems = new List<DTO_OrderItem>();
-
-                // Track whether the order can be processed (i.e., all product quantities are available)
-                bool inventoryValid = true;
 
                 foreach (DataGridViewRow row in dataGridView.Rows)
                 {
@@ -238,20 +239,17 @@ namespace GUI
                     string productID = row.Cells["ProductID"].Value.ToString();
                     int quantity = Convert.ToInt32(row.Cells["Quantity"].Value);
 
-                    // Deduct the quantity using the DeductProductQuantity method
                     bool success = busProduct.DeductProductQuantity(productID, quantity);
 
                     if (!success)
                     {
                         MessageBox.Show($"Not enough stock for product ID {productID}.", "Stock Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        inventoryValid = false;
-                        break;
+                        return;
                     }
 
-                    // Generate the next OrderItem ID
                     DTO_OrderItem orderItem = new DTO_OrderItem
                     {
-                        ID = busOrderItem.GenerateNextOrderItemID(), // Generate next OrderItem ID
+                        ID = busOrderItem.GenerateNextOrderItemID(),
                         OrderID = currentOrderID,
                         ProductID = productID,
                         Quantity = quantity
@@ -260,19 +258,10 @@ namespace GUI
                     orderItems.Add(orderItem);
                 }
 
-                if (!inventoryValid)
+                if (busOrders.PlaceOrder(order, orderItems))
                 {
-                    return; // Stop the order process if inventory issues are found
-                }
-
-                // Place the order (insert order and items into the database)
-                bool orderSuccess = busOrders.PlaceOrder(order, orderItems);
-
-                if (orderSuccess)
-                {
-                    // Create and insert the Bill automatically
                     BUS_Bill busBill = new BUS_Bill();
-                    string newBillID = busBill.GenerateNextBillID(); // Generate next Bill ID
+                    string newBillID = busBill.GenerateNextBillID();
                     DateTime billDate = DateTime.Now;
 
                     DTO_Bill bill = new DTO_Bill
@@ -285,10 +274,10 @@ namespace GUI
                         TotalPrice = totalPrice
                     };
 
-                    bool billSuccess = busBill.InsertBill(bill);
-
-                    if (billSuccess)
+                    if (busBill.InsertBill(bill))
                     {
+                        // Tạo hóa đơn dưới dạng PDF
+                        GenerateBillAsPDF(bill, orderItems);
                         MessageBox.Show("Order and Bill placed successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         ClearForm();
                     }
@@ -371,6 +360,145 @@ namespace GUI
                 MessageBox.Show($"Error exporting data: {ex.Message}", "Export Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void GenerateBillAsPDF(DTO_Bill bill, List<DTO_OrderItem> orderItems)
+        {
+            // Sử dụng SaveFileDialog để người dùng chọn nơi lưu file
+            SaveFileDialog saveFileDialog = new SaveFileDialog
+            {
+                Filter = "PDF file (*.pdf)|*.pdf",  // Chỉ cho phép lưu dưới định dạng .pdf
+                Title = "Save Bill as PDF",
+                FileName = $"Bill_{bill.ID}.pdf"  // Gợi ý tên file mặc định
+            };
+
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                // Lấy đường dẫn file mà người dùng chọn
+                string filePath = saveFileDialog.FileName;
+
+                // Fetch client and employee names
+                string clientName = busClient.GetClientNameByID(bill.ClientID);
+                string employeeName = busEmployee.GetEmployeeNameByID(bill.EmployeeID);
+
+                // Create a PDF document using iTextSharp
+                using (FileStream stream = new FileStream(filePath, FileMode.Create))
+                {
+                    iTextSharp.text.Document pdfDoc = new iTextSharp.text.Document(iTextSharp.text.PageSize.A4, 25f, 25f, 30f, 30f);
+                    PdfWriter.GetInstance(pdfDoc, stream);
+                    pdfDoc.Open();
+
+                    // Add company name (optional)
+                    iTextSharp.text.Paragraph companyName = new iTextSharp.text.Paragraph(".Net Engineering Company", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 24f, iTextSharp.text.Font.BOLD));
+
+                    companyName.Alignment = Element.ALIGN_CENTER;
+                    pdfDoc.Add(companyName);
+
+                    // Add title
+                    iTextSharp.text.Paragraph title = new iTextSharp.text.Paragraph("Bill Receipt", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 18f, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK));
+                    title.Alignment = Element.ALIGN_CENTER;
+                    pdfDoc.Add(title);
+
+                    // Add some space
+                    pdfDoc.Add(new Paragraph(" "));
+
+                    // Add bill information with formatted layout
+                    PdfPTable infoTable = new PdfPTable(2);
+                    infoTable.HorizontalAlignment = Element.ALIGN_LEFT;
+                    infoTable.SpacingBefore = 10f;
+                    infoTable.SpacingAfter = 10f;
+                    infoTable.WidthPercentage = 100;
+                    infoTable.SetWidths(new float[] { 30f, 70f }); // Column widths
+
+                    infoTable.AddCell(new PdfPCell(new Phrase("Bill ID:", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f, iTextSharp.text.Font.BOLD))) { Border = iTextSharp.text.Rectangle.NO_BORDER });
+                    infoTable.AddCell(new PdfPCell(new Phrase(bill.ID, new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))) { Border = iTextSharp.text.Rectangle.NO_BORDER });
+
+                    infoTable.AddCell(new PdfPCell(new Phrase("Client Name:", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f, iTextSharp.text.Font.BOLD))) { Border = iTextSharp.text.Rectangle.NO_BORDER });
+                    infoTable.AddCell(new PdfPCell(new Phrase(clientName, new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))) { Border = iTextSharp.text.Rectangle.NO_BORDER });
+
+                    infoTable.AddCell(new PdfPCell(new Phrase("Employee Name:", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f, iTextSharp.text.Font.BOLD))) { Border = iTextSharp.text.Rectangle.NO_BORDER });
+                    infoTable.AddCell(new PdfPCell(new Phrase(employeeName, new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))) { Border = iTextSharp.text.Rectangle.NO_BORDER });
+
+                    infoTable.AddCell(new PdfPCell(new Phrase("Bill Date:", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f, iTextSharp.text.Font.BOLD))) { Border = iTextSharp.text.Rectangle.NO_BORDER });
+                    infoTable.AddCell(new PdfPCell(new Phrase(bill.BillDate.ToString("dd/MM/yyyy"), new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))) { Border = iTextSharp.text.Rectangle.NO_BORDER });
+
+                    infoTable.AddCell(new PdfPCell(new Phrase("Total Price:", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f, iTextSharp.text.Font.BOLD))) { Border = iTextSharp.text.Rectangle.NO_BORDER });
+                    infoTable.AddCell(new PdfPCell(new Phrase(bill.TotalPrice.ToString("C2"), new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))) { Border = iTextSharp.text.Rectangle.NO_BORDER });
+
+
+                    pdfDoc.Add(infoTable);
+
+                    // Add some space before the table
+                    pdfDoc.Add(new Paragraph(" "));
+
+                    // Add order items table
+                    PdfPTable table = new PdfPTable(4); // 4 columns for Order Items
+                    table.WidthPercentage = 100;
+                    table.SetWidths(new float[] { 25f, 35f, 20f, 20f }); // Set column widths
+
+                    // Add table headers with custom font
+                    iTextSharp.text.pdf.PdfPCell cellHeader = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase("Product ID", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f, iTextSharp.text.Font.BOLD)));
+                    cellHeader.BackgroundColor = iTextSharp.text.BaseColor.LIGHT_GRAY;
+                    table.AddCell(cellHeader);
+
+                    cellHeader = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase("Product Name", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f, iTextSharp.text.Font.BOLD)));
+                    cellHeader.BackgroundColor = iTextSharp.text.BaseColor.LIGHT_GRAY;
+                    table.AddCell(cellHeader);
+
+                    cellHeader = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase("Quantity", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f, iTextSharp.text.Font.BOLD)));
+                    cellHeader.BackgroundColor = iTextSharp.text.BaseColor.LIGHT_GRAY;
+                    table.AddCell(cellHeader);
+
+                    cellHeader = new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase("Price", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f, iTextSharp.text.Font.BOLD)));
+                    cellHeader.BackgroundColor = iTextSharp.text.BaseColor.LIGHT_GRAY;
+                    table.AddCell(cellHeader);
+
+
+                    foreach (DTO_OrderItem orderItem in orderItems)
+                    {
+                        // Lấy thông tin sản phẩm dựa trên ProductID
+                        DTO_Product product = busProduct.GetProductByID(orderItem.ProductID);
+
+                        // Kiểm tra xem sản phẩm có tồn tại không
+                        if (product != null)
+                        {
+                            // Thêm thông tin sản phẩm vào bảng PDF
+                            table.AddCell(new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(orderItem.ProductID, new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))));
+                            table.AddCell(new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(product.Name, new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))));
+                            table.AddCell(new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(orderItem.Quantity.ToString(), new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))));
+                            table.AddCell(new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase((product.Price * orderItem.Quantity).ToString("F2"), new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))));
+                        }
+                        else
+                        {
+                            // Xử lý trường hợp không tìm thấy sản phẩm
+                            table.AddCell(new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase("Unknown Product", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))));
+                            table.AddCell(new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase("-", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))));
+                            table.AddCell(new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase(orderItem.Quantity.ToString(), new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))));
+                            table.AddCell(new iTextSharp.text.pdf.PdfPCell(new iTextSharp.text.Phrase("-", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 12f))));
+                        }
+                    }
+
+                    pdfDoc.Add(table);
+
+                    // Add thank you note
+                    pdfDoc.Add(new iTextSharp.text.Paragraph(" "));
+                    iTextSharp.text.Paragraph thankYouNote = new iTextSharp.text.Paragraph("Thank you for your business!", new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.HELVETICA, 14f, iTextSharp.text.Font.BOLDITALIC));
+                    thankYouNote.Alignment = iTextSharp.text.Element.ALIGN_CENTER;
+                    pdfDoc.Add(thankYouNote);
+
+                    // Close the document
+                    pdfDoc.Close();
+                }
+
+                MessageBox.Show($"Bill generated and saved to {filePath}", "Bill Generated", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                // Notify if user cancels the file save process
+                MessageBox.Show("File saving was canceled.", "Save Canceled", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+
 
         private void btCancel_Click(object sender, EventArgs e)
         {

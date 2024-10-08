@@ -10,3 +10,4 @@ C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\DTO\obj\Release\net8
 C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\DTO\obj\Release\net8.0\refint\DTO.dll
 C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\DTO\obj\Release\net8.0\DTO.pdb
 C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\DTO\obj\Release\net8.0\ref\DTO.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\DTO\obj\Release\net8.0\DTO.sourcelink.json

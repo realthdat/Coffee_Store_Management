@@ -84,6 +84,17 @@ public class BUS_Client
         return newID;
     }
 
+    // Hàm lấy tên khách hàng theo ID
+    public string GetClientNameByID(string clientID)
+    {
+        if (string.IsNullOrEmpty(clientID))
+        {
+            throw new Exception("Client ID cannot be null or empty.");
+        }
+
+        return dalClient.GetClientNameByID(clientID);
+    }
+
     public bool Exists(string clientID)
     {
         return dalClient.DoesClientExist(clientID); // Implement this in DAL_Client

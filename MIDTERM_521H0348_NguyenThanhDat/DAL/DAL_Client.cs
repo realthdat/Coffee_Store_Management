@@ -128,5 +128,22 @@ namespace DAL
             int count = (int)connection.ExecuteScalar(query, parameters);  // Executes a query and returns the first column of the first row
             return count > 0;  // Return true if employee exists, false otherwise
         }
+
+        public string GetClientNameByID(string clientID)
+        {
+            string query = "SELECT Name FROM Client WHERE ID = @ID";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+            new SqlParameter("@ID", clientID)
+            };
+
+            DataTable dt = connection.SelectQuery(query, parameters);
+
+            if (dt.Rows.Count > 0)
+            {
+                return dt.Rows[0]["Name"].ToString();  // Trả về tên của khách hàng
+            }
+            return null;  // Trả về null nếu không tìm thấy khách hàng
+        }
     }
 }

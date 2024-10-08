@@ -10,10 +10,19 @@
         "dependencies": {
           "BUS": "1.0.0",
           "DTO": "1.0.0",
-          "FastReport.DataVisualization": "2024.2.20"
+          "FastReport.DataVisualization": "2024.2.20",
+          "iTextSharp": "5.5.13.4"
         },
         "runtime": {
           "GUI.dll": {}
+        }
+      },
+      "BouncyCastle.Cryptography/2.4.0": {
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.4.0.33771"
+          }
         }
       },
       "FastReport.Compat/2024.2.20": {
@@ -37,6 +46,17 @@
           "lib/net6.0-windows7.0/FastReport.DataVisualization.dll": {
             "assemblyVersion": "2024.2.20.0",
             "fileVersion": "2024.2.20.0"
+          }
+        }
+      },
+      "iTextSharp/5.5.13.4": {
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.4.0"
+        },
+        "runtime": {
+          "lib/net461/itextsharp.dll": {
+            "assemblyVersion": "5.5.13.4",
+            "fileVersion": "5.5.13.4"
           }
         }
       },
@@ -304,7 +324,8 @@
         "dependencies": {
           "DAL": "1.0.0",
           "DTO": "1.0.0",
-          "FastReport.DataVisualization": "2024.2.20"
+          "FastReport.DataVisualization": "2024.2.20",
+          "iTextSharp": "5.5.13.4"
         },
         "runtime": {
           "BUS.dll": {
@@ -317,7 +338,8 @@
         "dependencies": {
           "DTO": "1.0.0",
           "FastReport.DataVisualization": "2024.2.20",
-          "System.Data.SqlClient": "4.8.6"
+          "System.Data.SqlClient": "4.8.6",
+          "iTextSharp": "5.5.13.4"
         },
         "runtime": {
           "DAL.dll": {
@@ -328,7 +350,8 @@
       },
       "DTO/1.0.0": {
         "dependencies": {
-          "FastReport.DataVisualization": "2024.2.20"
+          "FastReport.DataVisualization": "2024.2.20",
+          "iTextSharp": "5.5.13.4"
         },
         "runtime": {
           "DTO.dll": {
@@ -345,6 +368,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "BouncyCastle.Cryptography/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SwXsAV3sMvAU/Nn31pbjhWurYSjJ+/giI/0n6tCrYoupEK34iIHCuk3STAd9fx8yudM85KkLSVdn951vTng/vQ==",
+      "path": "bouncycastle.cryptography/2.4.0",
+      "hashPath": "bouncycastle.cryptography.2.4.0.nupkg.sha512"
+    },
     "FastReport.Compat/2024.2.20": {
       "type": "package",
       "serviceable": true,
@@ -358,6 +388,13 @@
       "sha512": "sha512-26PeEminX/4cRHR5MCw804ejx6INzwUqvAJ+yRhdz3SSljTaBcg/e8Wfl109c/CQ5yOxWNXGbGzbqWvlAUcrCQ==",
       "path": "fastreport.datavisualization/2024.2.20",
       "hashPath": "fastreport.datavisualization.2024.2.20.nupkg.sha512"
+    },
+    "iTextSharp/5.5.13.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/cvCNv8AJ+XuD99u4NfHSSxkBJKTdvP36wcfQF9V1Cjzi1ycyFSa4vJ64a3DhFVUTKVO60WF8OmAqngQDTHgYA==",
+      "path": "itextsharp/5.5.13.4",
+      "hashPath": "itextsharp.5.5.13.4.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Analyzers/3.3.2": {
       "type": "package",

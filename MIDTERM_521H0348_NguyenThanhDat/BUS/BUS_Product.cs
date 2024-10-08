@@ -70,6 +70,10 @@ public class BUS_Product
             return false;
         }
     }
+    public DTO_Product GetProductByID(string productID)
+    {
+        return dalProduct.GetProductByID(productID);
+    }
 
     public bool Exists(string productID)
     {

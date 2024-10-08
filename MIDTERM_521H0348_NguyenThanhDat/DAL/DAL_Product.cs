@@ -115,7 +115,7 @@ namespace DAL
             string query = "SELECT * FROM Product WHERE ID = @ID";
             SqlParameter[] parameters = new SqlParameter[]
             {
-        new SqlParameter("@ID", productID)
+                new SqlParameter("@ID", productID)
             };
 
             DataTable dt = connection.SelectQuery(query, parameters);

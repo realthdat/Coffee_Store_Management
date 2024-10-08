@@ -15,3 +15,4 @@ C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Release\net8
 C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Release\net8.0\refint\BUS.dll
 C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Release\net8.0\BUS.pdb
 C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Release\net8.0\ref\BUS.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Release\net8.0\BUS.sourcelink.json

@@ -148,6 +148,24 @@ public class BUS_Employee
         }
     }
 
+    public string GetEmployeeNameByID(string employeeID)
+    {
+        if (string.IsNullOrEmpty(employeeID))
+        {
+            throw new Exception("Employee ID cannot be null or empty.");
+        }
+
+        try
+        {
+            return dalEmployee.GetEmployeeNameByID(employeeID);
+        }
+        catch (Exception ex)
+        {
+            // Log hoặc xử lý ngoại lệ nếu cần
+            throw new Exception("Error retrieving employee name.", ex);
+        }
+    }
+
     public bool Exists(string employeeID)
     {
         // Call DAO layer to check if employee exists in the database
