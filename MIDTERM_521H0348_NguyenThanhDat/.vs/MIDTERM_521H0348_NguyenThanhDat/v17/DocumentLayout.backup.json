@@ -59,7 +59,7 @@
       "RelativeMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|solutionrelative:dto\\dto_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|c:\\users\\thanh\\source\\repos\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\midterm_521h0348_nguyenthanhdat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -216,11 +216,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
@@ -230,22 +230,9 @@
               "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.cs",
               "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.cs",
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.cs",
-              "ViewState": "AgIAAMoAAAAAAAAAAAAkwBMBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEBAAAAAAAAAAAkwBsBAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T19:21:38.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BUS_OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_OrderItem.cs",
-              "RelativeDocumentMoniker": "BUS\\BUS_OrderItem.cs",
-              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_OrderItem.cs",
-              "RelativeToolTip": "BUS\\BUS_OrderItem.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAF0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:55:14.96Z",
               "EditorCaption": ""
             },
             {
@@ -258,8 +245,7 @@
               "RelativeToolTip": "DTO\\DTO_Bill.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAiwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:56:43.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:56:43.361Z"
             },
             {
               "$type": "Document",
@@ -271,8 +257,55 @@
               "RelativeToolTip": "DTO\\DTO_OrderItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:54:12.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:54:12.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DTO_Product.cs",
+              "DocumentMoniker": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Product.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Product.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Product.cs",
+              "RelativeToolTip": "DTO\\DTO_Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:50:47.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DAL_OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_OrderItem.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_OrderItem.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_OrderItem.cs",
+              "RelativeToolTip": "DAL\\DAL_OrderItem.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:54:30.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BUS_Product.cs",
+              "DocumentMoniker": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Product.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_Product.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Product.cs",
+              "RelativeToolTip": "BUS\\BUS_Product.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwEgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:51:37.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DAL_Product.cs",
+              "DocumentMoniker": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Product.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Product.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Product.cs",
+              "RelativeToolTip": "DAL\\DAL_Product.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAuwHwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:51:04.594Z"
             },
             {
               "$type": "Document",
@@ -288,55 +321,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DTO_Product.cs",
-              "DocumentMoniker": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Product.cs",
-              "RelativeDocumentMoniker": "DTO\\DTO_Product.cs",
-              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Product.cs",
-              "RelativeToolTip": "DTO\\DTO_Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "BUS_OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_OrderItem.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_OrderItem.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_OrderItem.cs",
+              "RelativeToolTip": "BUS\\BUS_OrderItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAF0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:50:47.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DAL_OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_OrderItem.cs",
-              "RelativeDocumentMoniker": "DAL\\DAL_OrderItem.cs",
-              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_OrderItem.cs",
-              "RelativeToolTip": "DAL\\DAL_OrderItem.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAwwGIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:54:30.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BUS_Product.cs",
-              "DocumentMoniker": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Product.cs",
-              "RelativeDocumentMoniker": "BUS\\BUS_Product.cs",
-              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Product.cs",
-              "RelativeToolTip": "BUS\\BUS_Product.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAmwEgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:51:37.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DAL_Product.cs",
-              "DocumentMoniker": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Product.cs",
-              "RelativeDocumentMoniker": "DAL\\DAL_Product.cs",
-              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Product.cs",
-              "RelativeToolTip": "DAL\\DAL_Product.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAuwHwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:51:04.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:55:14.96Z"
             },
             {
               "$type": "Document",
@@ -348,8 +341,7 @@
               "RelativeToolTip": "BUS\\BUS_Employee.cs",
               "ViewState": "AgIAAIcAAAAAAAAAAAAYwKYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:39:59.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:39:59.462Z"
             },
             {
               "$type": "Document",
@@ -361,8 +353,7 @@
               "RelativeToolTip": "BUS\\BUS_Client.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAwFcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:50:13.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:50:13.543Z"
             },
             {
               "$type": "Document",
@@ -374,8 +365,7 @@
               "RelativeToolTip": "DAL\\DAL_Client.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAAYwIMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:49:28.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:49:28.578Z"
             },
             {
               "$type": "Document",
@@ -387,8 +377,7 @@
               "RelativeToolTip": "DTO\\DTO_Client.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:49:10.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:49:10.048Z"
             },
             {
               "$type": "Document",
@@ -400,20 +389,7 @@
               "RelativeToolTip": "DAL\\DAL_Employee.cs",
               "ViewState": "AgIAAHsAAAAAAAAAAAAYwJMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:39:38.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Login.cs",
-              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\Login.cs",
-              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Login.cs [Design]",
-              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:16:34.852Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-02T13:39:38.712Z"
             },
             {
               "$type": "Document",
@@ -488,8 +464,7 @@
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T18:04:06.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T18:04:06.94Z"
             },
             {
               "$type": "Document",
@@ -501,8 +476,7 @@
               "RelativeToolTip": "BUS\\BUS_Orders.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAYwHYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:53:20.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:53:20.459Z"
             },
             {
               "$type": "Document",
@@ -527,8 +501,7 @@
               "RelativeToolTip": "DAL\\DAL_Bill.cs",
               "ViewState": "AgIAAKEAAAAAAAAAAAAkwMEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:57:13.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:57:13.568Z"
             },
             {
               "$type": "Document",
@@ -540,8 +513,7 @@
               "RelativeToolTip": "BUS\\BUS_Bill.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAkwHsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:57:39.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:57:39.914Z"
             },
             {
               "$type": "Document",
@@ -566,8 +538,7 @@
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\Login.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAD4vxUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:02:02.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T14:02:02.243Z"
             },
             {
               "$type": "Document",
@@ -592,8 +563,7 @@
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T05:56:03.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T05:56:03.206Z"
             },
             {
               "$type": "Document",
@@ -605,8 +575,7 @@
               "RelativeToolTip": "DAL\\DAL_Orders.cs",
               "ViewState": "AgIAAHMAAAAAAAAAAAAowIUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:52:44.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:52:44.244Z"
             },
             {
               "$type": "Document",
@@ -618,8 +587,7 @@
               "RelativeToolTip": "DAL\\DAL_Account.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAowHcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:47:39.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:47:39.66Z"
             },
             {
               "$type": "Document",
@@ -644,8 +612,7 @@
               "RelativeToolTip": "DTO\\DTO_Orders.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAiwAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:52:32.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:52:32.828Z"
             },
             {
               "$type": "Document",
@@ -657,8 +624,7 @@
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAYwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T18:26:13.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T18:26:13.395Z"
             },
             {
               "$type": "Document",
@@ -670,8 +636,7 @@
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageClient.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T17:21:17.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T17:21:17.845Z"
             },
             {
               "$type": "Document",
@@ -683,8 +648,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAALUUAAAAAAAAAAASwMgUAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-02T15:36:47.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T15:36:47.831Z"
             },
             {
               "$type": "Document",
@@ -696,8 +660,7 @@
               "RelativeToolTip": "DTO\\DTO_Employee.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAiwAMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:27:02.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:27:02.104Z"
             },
             {
               "$type": "Document",
@@ -709,8 +672,7 @@
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:40:30.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:40:30.85Z"
             },
             {
               "$type": "Document",
@@ -722,8 +684,7 @@
               "RelativeToolTip": "BUS\\BUS_Account.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:48:13.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:48:13.778Z"
             },
             {
               "$type": "Document",
@@ -735,8 +696,7 @@
               "RelativeToolTip": "DAL\\DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-02T13:23:03.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:23:03.821Z"
             },
             {
               "$type": "Document",
@@ -748,8 +708,7 @@
               "RelativeToolTip": "BUS\\BUS.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-02T13:22:43.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:22:43.131Z"
             },
             {
               "$type": "Document",
@@ -761,8 +720,7 @@
               "RelativeToolTip": "DTO\\DTO_Account.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAiwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:47:20.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:47:20.055Z"
             },
             {
               "$type": "Document",
@@ -774,8 +732,18 @@
               "RelativeToolTip": "DAL\\Connection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:32:59.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:32:59.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Login.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\Login.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Login.cs [Design]",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:16:34.852Z"
             },
             {
               "$type": "Document",
@@ -786,8 +754,7 @@
               "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageBill.cs [Design]",
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageBill.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T04:09:21.606Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-03T04:09:21.606Z"
             },
             {
               "$type": "Document",
@@ -798,8 +765,7 @@
               "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageClient.cs [Design]",
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageClient.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T17:09:23.68Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-02T17:09:23.68Z"
             },
             {
               "$type": "Document",
@@ -810,8 +776,7 @@
               "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.cs [Design]",
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T05:30:42.35Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-03T05:30:42.35Z"
             },
             {
               "$type": "Document",
@@ -822,8 +787,7 @@
               "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.cs [Design]",
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T17:58:38.295Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-02T17:58:38.295Z"
             },
             {
               "$type": "Document",
@@ -834,8 +798,7 @@
               "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageEmployee.cs [Design]",
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageEmployee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:39:41.134Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-02T14:39:41.134Z"
             },
             {
               "$type": "Document",
@@ -846,8 +809,7 @@
               "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\MainForm.cs [Design]",
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:01:23.465Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-02T14:01:23.465Z"
             },
             {
               "$type": "Document",
@@ -858,8 +820,7 @@
               "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Dashboard.cs [Design]",
               "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T10:11:39.828Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-03T10:11:39.828Z"
             }
           ]
         }

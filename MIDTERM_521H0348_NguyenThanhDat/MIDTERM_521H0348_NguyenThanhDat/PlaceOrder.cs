@@ -130,8 +130,10 @@ namespace GUI
                 txtOrderID.Text = currentOrderID;  // Display OrderID
                 firstOrderGenerated = true;
 
-                // Generate the initial OrderItemID
+                // Generate the initial OrderItemID from the database
                 string maxOrderItemID = busOrderItem.GetMaxOrderItemID();  // Get the max OrderItemID from the database
+
+                // Ensure a proper starting point by parsing and incrementing
                 currentOrderItemID = int.Parse(maxOrderItemID.Substring(2));  // Extract numeric part of OrderItemID
             }
 
@@ -150,7 +152,7 @@ namespace GUI
             // Fetch the price from BUS_Product
             decimal price = busProduct.GetProductPrice(productID);
 
-            // Increment and generate new OrderItemID
+            // Fetch the latest OrderItemID from the database
             currentOrderItemID++;  // Increment the OrderItemID
             string orderItemID = "OI" + currentOrderItemID.ToString("D4");  // Format OrderItemID as OIxxxx
 
@@ -232,24 +234,32 @@ namespace GUI
 
                 List<DTO_OrderItem> orderItems = new List<DTO_OrderItem>();
 
+                // Ensure unique OrderItemID generation by retrieving the max ID from the database once
+                string maxOrderItemID = busOrderItem.GetMaxOrderItemID();  // Get the max OrderItemID from the database
+                int currentOrderItemID = int.Parse(maxOrderItemID.Substring(2));  // Extract numeric part of OrderItemID
+
                 foreach (DataGridViewRow row in dataGridView.Rows)
                 {
-                    if (row.IsNewRow) continue;
+                    if (row.IsNewRow) continue; // Skip empty row
 
                     string productID = row.Cells["ProductID"].Value.ToString();
                     int quantity = Convert.ToInt32(row.Cells["Quantity"].Value);
 
+                    // Deduct the quantity from the stock
                     bool success = busProduct.DeductProductQuantity(productID, quantity);
-
                     if (!success)
                     {
                         MessageBox.Show($"Not enough stock for product ID {productID}.", "Stock Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
 
+                    // Generate a unique OrderItemID for each item
+                    currentOrderItemID++;  // Increment the OrderItemID for each new order item
+                    string orderItemID = "OI" + currentOrderItemID.ToString("D4");  // Format OrderItemID as OIxxxx
+
                     DTO_OrderItem orderItem = new DTO_OrderItem
                     {
-                        ID = busOrderItem.GenerateNextOrderItemID(),
+                        ID = orderItemID,
                         OrderID = currentOrderID,
                         ProductID = productID,
                         Quantity = quantity
@@ -258,6 +268,7 @@ namespace GUI
                     orderItems.Add(orderItem);
                 }
 
+                // Insert the order and the order items into the database
                 if (busOrders.PlaceOrder(order, orderItems))
                 {
                     BUS_Bill busBill = new BUS_Bill();
@@ -285,6 +296,7 @@ namespace GUI
                     {
                         MessageBox.Show("Order placed, but failed to generate the bill.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
+
                 }
                 else
                 {
