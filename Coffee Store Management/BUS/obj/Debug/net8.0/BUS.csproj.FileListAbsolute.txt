@@ -1,0 +1,35 @@
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\bin\Debug\net8.0\BUS.deps.json
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\bin\Debug\net8.0\BUS.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\bin\Debug\net8.0\BUS.pdb
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\bin\Debug\net8.0\DAL.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\bin\Debug\net8.0\DTO.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\bin\Debug\net8.0\DAL.pdb
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\bin\Debug\net8.0\DTO.pdb
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Debug\net8.0\BUS.csproj.AssemblyReference.cache
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Debug\net8.0\BUS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Debug\net8.0\BUS.AssemblyInfoInputs.cache
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Debug\net8.0\BUS.AssemblyInfo.cs
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Debug\net8.0\BUS.csproj.CoreCompileInputs.cache
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Debug\net8.0\BUS.csproj.Up2Date
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Debug\net8.0\BUS.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Debug\net8.0\refint\BUS.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Debug\net8.0\BUS.pdb
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\BUS\obj\Debug\net8.0\ref\BUS.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\bin\Debug\net8.0\BUS.deps.json
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\bin\Debug\net8.0\BUS.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\bin\Debug\net8.0\BUS.pdb
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\bin\Debug\net8.0\DAL.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\bin\Debug\net8.0\DTO.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\bin\Debug\net8.0\DAL.pdb
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\bin\Debug\net8.0\DTO.pdb
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\obj\Debug\net8.0\BUS.csproj.AssemblyReference.cache
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\obj\Debug\net8.0\BUS.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\obj\Debug\net8.0\BUS.AssemblyInfoInputs.cache
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\obj\Debug\net8.0\BUS.AssemblyInfo.cs
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\obj\Debug\net8.0\BUS.csproj.CoreCompileInputs.cache
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\obj\Debug\net8.0\BUS.sourcelink.json
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\obj\Debug\net8.0\BUS.csproj.Up2Date
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\obj\Debug\net8.0\BUS.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\obj\Debug\net8.0\refint\BUS.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\obj\Debug\net8.0\BUS.pdb
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\BUS\obj\Debug\net8.0\ref\BUS.dll

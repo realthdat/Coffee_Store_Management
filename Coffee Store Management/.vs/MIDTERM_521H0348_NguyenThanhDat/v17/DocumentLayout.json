@@ -1,0 +1,808 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\placeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\placeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\midterm_521h0348_nguyenthanhdat\\placeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\placeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dal\\dal_orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|solutionrelative:dal\\dal_orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dal\\dal_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|solutionrelative:dal\\dal_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\bus\\bus_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|solutionrelative:bus\\bus_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dto\\dto_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|solutionrelative:dto\\dto_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dto\\dto_orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|solutionrelative:dto\\dto_orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dto\\dto_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|solutionrelative:dto\\dto_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\bus\\bus_orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|solutionrelative:bus\\bus_orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\bus\\bus_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|solutionrelative:bus\\bus_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dal\\dal_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|solutionrelative:dal\\dal_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\bus\\bus_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|solutionrelative:bus\\bus_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dal\\dal_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|solutionrelative:dal\\dal_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dto\\dto_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|solutionrelative:dto\\dto_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\midterm_521h0348_nguyenthanhdat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\manageclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\manageclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\midterm_521h0348_nguyenthanhdat\\manageclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\manageclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\managebill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\managebill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\midterm_521h0348_nguyenthanhdat\\managebill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\managebill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\manageproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\manageproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\midterm_521h0348_nguyenthanhdat\\manageproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\manageproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\midterm_521h0348_nguyenthanhdat\\manageorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\manageorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\manageemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\manageemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\midterm_521h0348_nguyenthanhdat\\manageemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\manageemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\midterm_521h0348_nguyenthanhdat\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\gui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\gui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\bus\\bus_orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|solutionrelative:bus\\bus_orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\midterm_521h0348_nguyenthanhdat\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\bus\\bus_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|solutionrelative:bus\\bus_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dal\\dal_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|solutionrelative:dal\\dal_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\manageorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\manageorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dal\\dal_orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|solutionrelative:dal\\dal_orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\manageorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\manageorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dal\\dal_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|solutionrelative:dal\\dal_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\placeorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\placeorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dto\\dto_orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|solutionrelative:dto\\dto_orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\manageproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\manageproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\manageclient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\manageclient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dto\\dto_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|solutionrelative:dto\\dto_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\midterm_521h0348_nguyenthanhdat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19984993-9EAA-4B02-93CC-FFA4FD6A45C3}|MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj|solutionrelative:midterm_521h0348_nguyenthanhdat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\bus\\bus_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|solutionrelative:bus\\bus_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\bus\\bus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D45E1C36-C4F7-4079-BE34-EDF008E41F8D}|BUS\\BUS.csproj|solutionrelative:bus\\bus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dto\\dto_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FD8E29-E6C8-48F2-802C-68B2475371F1}|DTO\\DTO.csproj|solutionrelative:dto\\dto_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|d:\\.nettechnology\\new folder\\midterm_dotnettechnology\\midterm_521h0348_nguyenthanhdat\\dal\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E21FA4-90FF-4F78-B89F-525507C1BED5}|DAL\\DAL.csproj|solutionrelative:dal\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thanh\\Desktop\\PiStoreManagement.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlaceOrder.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.cs",
+              "ViewState": "AgIAACABAAAAAAAAAAAkwB0BAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T19:21:38.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DTO_Bill.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Bill.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Bill.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Bill.cs",
+              "RelativeToolTip": "DTO\\DTO_Bill.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:56:43.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DTO_OrderItem.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_OrderItem.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_OrderItem.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_OrderItem.cs",
+              "RelativeToolTip": "DTO\\DTO_OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:54:12.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DTO_Product.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Product.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Product.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Product.cs",
+              "RelativeToolTip": "DTO\\DTO_Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:50:47.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DAL_OrderItem.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_OrderItem.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_OrderItem.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_OrderItem.cs",
+              "RelativeToolTip": "DAL\\DAL_OrderItem.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:54:30.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BUS_Product.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Product.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_Product.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Product.cs",
+              "RelativeToolTip": "BUS\\BUS_Product.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwEgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:51:37.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DAL_Product.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Product.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Product.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Product.cs",
+              "RelativeToolTip": "DAL\\DAL_Product.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAuwHwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:51:04.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlaceOrder.cs [Design]",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T18:53:48.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BUS_OrderItem.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_OrderItem.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_OrderItem.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_OrderItem.cs",
+              "RelativeToolTip": "BUS\\BUS_OrderItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAF0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:55:14.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BUS_Employee.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Employee.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_Employee.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Employee.cs",
+              "RelativeToolTip": "BUS\\BUS_Employee.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAYwKYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:39:59.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BUS_Client.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Client.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_Client.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Client.cs",
+              "RelativeToolTip": "BUS\\BUS_Client.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAwFcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:50:13.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DAL_Client.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Client.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Client.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Client.cs",
+              "RelativeToolTip": "DAL\\DAL_Client.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAYwIMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:49:28.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DTO_Client.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Client.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Client.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Client.cs",
+              "RelativeToolTip": "DTO\\DTO_Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:49:10.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DAL_Employee.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Employee.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Employee.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Employee.cs",
+              "RelativeToolTip": "DAL\\DAL_Employee.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAYwJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:39:38.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ManageProduct.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAkwK8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T18:02:00.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ManageEmployee.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageEmployee.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageEmployee.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageEmployee.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageEmployee.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAkwM4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T15:06:58.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManageClient.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageClient.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageClient.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageClient.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T17:20:25.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManageBill.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageBill.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageBill.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageBill.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageBill.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAApwNUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T04:38:21.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PiStoreManagement.sql",
+              "DocumentMoniker": "C:\\Users\\thanh\\Desktop\\PiStoreManagement.sql",
+              "ToolTip": "C:\\Users\\thanh\\Desktop\\PiStoreManagement.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-03T17:57:37.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GUI.csproj",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\GUI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-03T18:04:06.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BUS_Orders.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Orders.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_Orders.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Orders.cs",
+              "RelativeToolTip": "BUS\\BUS_Orders.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwHYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:53:20.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Dashboard.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\Dashboard.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Dashboard.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\Dashboard.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAIBJwDIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T10:12:33.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DAL_Bill.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Bill.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Bill.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Bill.cs",
+              "RelativeToolTip": "DAL\\DAL_Bill.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAkwMEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:57:13.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BUS_Bill.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Bill.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_Bill.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Bill.cs",
+              "RelativeToolTip": "BUS\\BUS_Bill.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAkwHsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:57:39.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\MainForm.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\MainForm.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\MainForm.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\MainForm.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T14:41:14.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Login.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\Login.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Login.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\Login.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAD4vxUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T14:02:02.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ManageOrder.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAjwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T05:38:17.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ManageOrder.Designer.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.Designer.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.Designer.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.Designer.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T05:56:03.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DAL_Orders.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Orders.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Orders.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Orders.cs",
+              "RelativeToolTip": "DAL\\DAL_Orders.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAowIUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:52:44.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DAL_Account.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Account.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Account.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL_Account.cs",
+              "RelativeToolTip": "DAL\\DAL_Account.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowHcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:47:39.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PlaceOrder.Designer.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.Designer.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.Designer.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.Designer.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\PlaceOrder.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T19:28:47.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DTO_Orders.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Orders.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Orders.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Orders.cs",
+              "RelativeToolTip": "DTO\\DTO_Orders.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:52:32.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ManageProduct.Designer.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.Designer.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.Designer.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.Designer.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T18:26:13.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ManageClient.Designer.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageClient.Designer.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageClient.Designer.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageClient.Designer.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\ManageClient.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T17:21:17.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALUUAAAAAAAAAAASwMgUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-02T15:36:47.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DTO_Employee.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Employee.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Employee.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Employee.cs",
+              "RelativeToolTip": "DTO\\DTO_Employee.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:27:02.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Program.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\Program.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Program.cs",
+              "RelativeToolTip": "MIDTERM_521H0348_NguyenThanhDat\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:40:30.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BUS_Account.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Account.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_Account.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS_Account.cs",
+              "RelativeToolTip": "BUS\\BUS_Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:48:13.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DAL.csproj",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-02T13:23:03.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "BUS.csproj",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS.csproj",
+              "RelativeDocumentMoniker": "BUS\\BUS.csproj",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\BUS\\BUS.csproj",
+              "RelativeToolTip": "BUS\\BUS.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-02T13:22:43.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DTO_Account.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Account.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_Account.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DTO\\DTO_Account.cs",
+              "RelativeToolTip": "DTO\\DTO_Account.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:47:20.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\Connection.cs",
+              "RelativeDocumentMoniker": "DAL\\Connection.cs",
+              "ToolTip": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\DAL\\Connection.cs",
+              "RelativeToolTip": "DAL\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:32:59.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Login.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\Login.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:16:34.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ManageBill.cs [Design]",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageBill.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageBill.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageBill.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T04:09:21.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageClient.cs [Design]",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageClient.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageClient.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageClient.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T17:09:23.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ManageOrder.cs [Design]",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T05:30:42.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManageProduct.cs [Design]",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T17:58:38.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ManageEmployee.cs [Design]",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageEmployee.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\ManageEmployee.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\ManageEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T14:39:41.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\MainForm.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\MainForm.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T14:01:23.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\.NetTechnology\\New folder\\MIDTERM_DotNetTechnology\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Dashboard.cs",
+              "RelativeDocumentMoniker": "MIDTERM_521H0348_NguyenThanhDat\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\thanh\\source\\repos\\MIDTERM_521H0348_NguyenThanhDat\\MIDTERM_521H0348_NguyenThanhDat\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T10:11:39.828Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

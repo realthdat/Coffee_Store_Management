@@ -1,0 +1,169 @@
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.csproj.AssemblyReference.cache
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.csproj.GenerateResource.cache
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.AssemblyInfoInputs.cache
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\GUI.exe
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\GUI.deps.json
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\GUI.runtimeconfig.json
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\GUI.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\GUI.pdb
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\BUS.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\DAL.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\DTO.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\BUS.pdb
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\DTO.pdb
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\DAL.pdb
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.csproj.Up2Date
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\refint\GUI.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.pdb
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\ref\GUI.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\MIDTERM_521H0348_NguyenThanhDat.Login.resources
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.MainForm.resources
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.ManageEmployee.resources
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.ManageClient.resources
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.ManageProduct.resources
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.PlaceOrder.resources
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.ManageBill.resources
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.ManageOrder.resources
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.Properties.Resources.resources
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\FastReport.Compat.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\FastReport.DataVisualization.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\thanh\source\repos\MIDTERM_521H0348_NguyenThanhDat\MIDTERM_521H0348_NguyenThanhDat\obj\Debug\net8.0-windows\GUI.Dashboard.resources
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\GUI.exe
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\GUI.deps.json
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\GUI.runtimeconfig.json
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\GUI.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\GUI.pdb
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\FastReport.Compat.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\FastReport.DataVisualization.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\itextsharp.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\BUS.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\DAL.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\DTO.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\BUS.pdb
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\DTO.pdb
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\bin\Debug\net8.0-windows\DAL.pdb
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.csproj.AssemblyReference.cache
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.Dashboard.resources
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\MIDTERM_521H0348_NguyenThanhDat.Login.resources
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.MainForm.resources
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.ManageBill.resources
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.ManageClient.resources
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.ManageEmployee.resources
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.ManageOrder.resources
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.ManageProduct.resources
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.PlaceOrder.resources
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.Properties.Resources.resources
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.csproj.GenerateResource.cache
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.AssemblyInfoInputs.cache
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.sourcelink.json
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.csproj.Up2Date
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\refint\GUI.dll
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.pdb
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
+D:\.NetTechnology\New folder\MIDTERM_DotNetTechnology\Coffee Store Management\CoffeeStoreManagement\obj\Debug\net8.0-windows\ref\GUI.dll
